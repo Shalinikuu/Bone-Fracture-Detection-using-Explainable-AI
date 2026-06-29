@@ -14,7 +14,8 @@ https://huggingface.co/spaces/shaliniii/bone-fracture-detection
 
 ## 📷 Dashboard
 
-<img width="822" height="641" alt="image" src="https://github.com/user-attachments/assets/b212f929-a561-4be5-af71-f340142cd210" />
+<img width="775" height="643" alt="image" src="https://github.com/user-attachments/assets/eb8c29c8-6d68-490d-a059-f7302c3c77f3" />
+
 
 
 ---
