@@ -1,99 +1,106 @@
 # 🦴 Bone Fracture Detection using Explainable AI
 
-An AI-powered web application for automated bone fracture detection from X-ray images using **EfficientNetB0**, **TensorFlow**, **Grad-CAM**, and **Gradio**. The application provides real-time predictions, explainable visualizations, confidence scores, and downloadable medical reports.
+<p align="center">
+  <img src="screenshots/dashboard.png" width="100%">
+</p>
+
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge&logo=tensorflow)
+![Gradio](https://img.shields.io/badge/Gradio-UI-red?style=for-the-badge)
+![EfficientNetB0](https://img.shields.io/badge/Model-EfficientNetB0-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+</p>
+
+---
+
+## 📌 Overview
+
+Bone Fracture Detection is an Explainable AI web application that automatically detects fractures from X-ray images using a deep learning model based on **EfficientNetB0**.
+
+Unlike traditional classification systems, this project also provides **Grad-CAM heatmaps** to explain which regions influenced the prediction, making the model more interpretable.
+
+The application is deployed on **Hugging Face Spaces** using an interactive **Gradio** interface.
 
 ---
 
 ## 🚀 Live Demo
 
-🤗 Hugging Face Space
+🔗 **Hugging Face**
 
 https://huggingface.co/spaces/shaliniii/bone-fracture-detection
 
 ---
 
-## 📷 Dashboard
+# ✨ Features
 
-<img width="775" height="643" alt="image" src="https://github.com/user-attachments/assets/eb8c29c8-6d68-490d-a059-f7302c3c77f3" />
-
-
-
----
-
-## ✨ Features
-
-- 🦴 Bone Fracture Detection from X-ray Images
+- 🦴 Bone Fracture Detection
 - 🔥 Explainable AI using Grad-CAM
-- 📊 Prediction Confidence Score
+- 📊 Confidence Score
 - 📈 Threshold Comparison
-- 📉 ROC Curve
-- 📈 Precision vs Recall Graph
 - 📄 Downloadable PDF Report
-- 💡 General Medical Guidance
-- 🌙 Modern Dark Theme UI
+- 🌙 Modern Dark UI
+- ⚡ Fast Inference
 - ☁️ Hugging Face Deployment
 
 ---
 
-## 🛠 Tech Stack
+# 🖥 Dashboard
 
-- Python
-- TensorFlow / Keras
-- EfficientNetB0
-- OpenCV
-- NumPy
-- Grad-CAM
-- Gradio
-- ReportLab
-- Matplotlib
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
-## 📂 Project Structure
+# 🧠 Deep Learning Model
+
+| Feature | Details |
+|----------|---------|
+| Model | EfficientNetB0 |
+| Framework | TensorFlow / Keras |
+| Image Size | 224 × 224 |
+| Classes | Fractured / Non-Fractured |
+| Explainability | Grad-CAM |
+
+---
+
+# 🛠 Tech Stack
+
+- Python
+- TensorFlow
+- Keras
+- OpenCV
+- NumPy
+- Matplotlib
+- Gradio
+- ReportLab
+
+---
+
+# 📂 Project Structure
 
 ```
-Bone-Fracture-Detection-AI
+Bone-Fracture-Detection-using-Explainable-AI
 │
 ├── app.py
 ├── fracture_model_finetuned_v2.keras
 ├── requirements.txt
 ├── README.md
-├── screenshots
-│   └── dashboard.png
-└── assets
+├── LICENSE
+├── screenshots/
+│     └── dashboard.png
+└── .gitattributes
 ```
 
 ---
 
-## 🧠 Model
-
-- Backbone : EfficientNetB0
-- Input Size : 224 × 224
-- Binary Classification
-- Explainability using Grad-CAM
-
----
-
-## 📊 Output
-
-The application provides
-
-- Fractured / Non-Fractured Prediction
-- Model Confidence
-- Grad-CAM Heatmap
-- Threshold Comparison
-- ROC Curve
-- Precision vs Recall Visualization
-- PDF Report
-
----
-
-## ⚙ Installation
+# ⚙ Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Bone-Fracture-Detection-AI.git
+git clone https://github.com/Shalinikuu/Bone-Fracture-Detection-using-Explainable-AI.git
 
-cd Bone-Fracture-Detection-AI
+cd Bone-Fracture-Detection-using-Explainable-AI
 
 pip install -r requirements.txt
 
@@ -102,27 +109,39 @@ python app.py
 
 ---
 
-## 🤗 Deployment
+# 📈 Model Output
 
-This application is deployed using Hugging Face Spaces.
+The application provides
 
-Live Link
-
-https://huggingface.co/spaces/shaliniii/bone-fracture-detection
+- Fractured / Non-Fractured Prediction
+- Confidence Score
+- Grad-CAM Heatmap
+- Threshold Comparison
+- PDF Report
 
 ---
 
-## 📚 Future Improvements
+# 📷 Sample Workflow
 
-- Fracture Localization using YOLO
-- Multi-class Bone Classification
+1. Upload X-ray Image
+2. Click **Analyze X-ray**
+3. View Prediction
+4. View Grad-CAM Heatmap
+5. Download PDF Report
+
+---
+
+# 🔮 Future Improvements
+
+- YOLO-based Fracture Localization
+- Multi-Class Bone Detection
+- DICOM Image Support
 - Clinical Report Generation
-- DICOM Support
 - Mobile Application
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 **Shalini Kushwaha**
 
@@ -136,6 +155,8 @@ https://huggingface.co/spaces/shaliniii/bone-fracture-detection
 
 ---
 
-## ⭐ If you like this project
+# 📄 License
 
-Please consider giving it a ⭐ on GitHub.
+This project is licensed under the MIT License.
+
+---
